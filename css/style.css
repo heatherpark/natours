@@ -13,10 +13,18 @@ Dark green: #28b485
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 html {
   font-size: 62.5%;
 }
 
+||||||| merged common ancestors
+=======
+html {
+  font-size: 10px;
+}
+
+>>>>>>> f8511b9563587650fe526797eb8e41992c4dce87
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;

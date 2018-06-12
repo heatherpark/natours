@@ -14,13 +14,10 @@
     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
     -webkit-background-clip: text;
     color: transparent;
+    backface-visibility: hidden;
   }
 
   &:hover {
     transform: translateY(-1.5rem) scale(1.03);
-  }
-
-  &__text {
-
   }
 }

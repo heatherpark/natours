@@ -253,6 +253,8 @@ body {
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
+  .card:hover .card__side--back {
+    transform: rotateY(0); }
 
 .composition {
   position: relative; }

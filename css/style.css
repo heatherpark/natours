@@ -567,6 +567,9 @@ body {
   padding: 10rem 0;
   font-size: 1.4rem;
   text-align: center; }
+  @media (max-width: 56.25em) {
+    .footer {
+      padding: 8rem 0; } }
   .footer__logo-box {
     margin-bottom: 8rem; }
   .footer__logo {
@@ -577,6 +580,10 @@ body {
     padding-top: 2rem;
     display: inline-block;
     margin: 0 auto; }
+    @media (max-width: 56.25em) {
+      .footer__navigation {
+        width: 100%;
+        text-align: center; } }
   .footer__list {
     list-style: none; }
   .footer__item {
@@ -630,7 +637,8 @@ body {
         margin-bottom: 6rem; } }
   @media (max-width: 56.25em) {
     .row {
-      max-width: 50rem; } }
+      max-width: 50rem;
+      padding: 0 3rem; } }
   .row::after {
     content: "";
     display: table;
